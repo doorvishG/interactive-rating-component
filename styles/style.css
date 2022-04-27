@@ -1,0 +1,186 @@
+/*variables*/
+body {
+  background-color: black;
+}
+
+.card {
+  background-color: #1F2630;
+  width: 450px;
+  height: 52vh;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card .icon {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 50%;
+  background-color: #474a55;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .icon .star {
+  padding: 10px 12px;
+}
+
+.card h1 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.9rem;
+  padding-top: 0.2em;
+  margin-left: 30px;
+}
+
+.card p {
+  color: #636c7a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.875rem;
+  margin-left: 30px;
+  width: 85%;
+  margin-top: 0.1em;
+  line-height: 1.5em;
+}
+
+.card .ratings {
+  margin-top: 1.8em;
+  margin-left: 30px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 32px;
+}
+
+.card .ratings .rate {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  color: #636c7a;
+  padding: 20px 20px;
+  border-radius: 50%;
+  width: 2.2em;
+  height: 1.2em;
+  background-color: #282f39;
+  cursor: pointer;
+}
+
+.card .ratings .rate:hover {
+  background-color: #7b8594;
+  color: #fff;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.card .ratings .rate:active {
+  background-color: #FE7611;
+  color: #fff;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.card .ratings .active {
+  background-color: #7b8594;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.card .btnSubmit {
+  margin-top: 1.7em;
+  margin-left: 30px;
+  padding: 12px;
+  border-radius: 100em;
+  width: 85%;
+  background-color: #FE7611;
+  border: 1px #FE7611;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.card .btnSubmit:hover {
+  background-color: #fff;
+  color: #FE7611;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.card .afterSubmit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+
+.card .afterSubmit .tkImg {
+  margin-top: 3em;
+}
+
+.card .afterSubmit .label {
+  background-color: #252D38;
+  margin-top: 0.5em;
+  width: 180px;
+  height: 28px;
+  border-radius: 100em;
+}
+
+.card .afterSubmit .label p {
+  margin-top: 0.5em;
+  margin-left: 1em;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #8b5a39;
+  width: 86%;
+}
+
+.card .afterSubmit h1 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.9rem;
+  margin-left: 0.4em;
+}
+
+.card .afterSubmit p {
+  color: #636c7a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  width: 86%;
+  text-align: center;
+  line-height: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */
