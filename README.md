@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [will be added soon]
+- Solution URL: [https://doorvish-gujoo-interactive-rating-component.vercel.app/]
 
 ## My process
 
